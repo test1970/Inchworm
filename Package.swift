@@ -17,6 +17,7 @@ let package = Package(
     targets: [
         .target(
             name: "Inchworm",
+            path: "Source",
             dependencies: [])
     ]
 )
