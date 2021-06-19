@@ -11,13 +11,9 @@ let package = Package(
             name: "Inchworm",
             targets: ["Inchworm"]),
     ],
-    dependencies: [
-        // no dependencies
-    ],
     targets: [
         .target(
             name: "Inchworm",
-            path: "Source",
-            dependencies: [])
+            path: "Source")
     ]
 )
